@@ -1,0 +1,53 @@
+.boxes {
+    margin: 10px;
+    width: 50%;
+}
+
+.boxes .save-button {
+    margin-top: 20px;
+    width: 40%;
+}
+
+.boxes .rect {
+    width: 40%;
+    display: flex;
+}
+
+.boxes .textfield {
+    width: 90%;
+}
+
+.boxes .rect .Square {
+    margin-left: 10px;
+}
+
+.boxes form {
+    width: 40%;
+}
+
+.boxes form .form-buttons {
+    display: flex;
+}
+
+.boxes form .Square {
+    margin-left: 10px;
+    opacity: 0;
+}
+
+@media only screen and (max-width: 600px) {
+    .boxes {
+        width: 100%;
+        margin: 0px;
+        text-align: center;
+    }
+    .boxes .save-button {
+        width: 90%;
+    }
+    .boxes .rect {
+        width: 100%;
+        justify-content: center;
+    }
+    .boxes form .form-buttons {
+        justify-content: center;
+    }
+}
